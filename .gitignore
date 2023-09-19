@@ -1,5 +1,4 @@
 config/settings.py
-logo.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
