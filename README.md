@@ -1,12 +1,12 @@
 # Currency Master Bot
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://github.com/GepardXXX/Currency-Master-bot/blob/main/logo.png" alt="Currency Rate Bot" style="margin-bottom: 10px;">
+  <img src="https://github.com/GepardXXX/Currency-Master-bot/aiogram3.x/logo.png" alt="Currency Rate Bot" style="margin-bottom: 10px;">
 </div>
 
 
 
-[![GitHub license](https://img.shields.io/github/license/GepardXXX/Currency-Master-bot.svg?style=plastic)](https://github.com/GepardXXX/Currency-Master-bot/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/GepardXXX/Currency-Master-bot.svg?style=plastic)](https://github.com/GepardXXX/Currency-Master-bot/blob/aiogram3.x/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/GepardXXX/Currency-Master-bot.svg?style=plastic)](https://github.com/GepardXXX/Currency-Master-bot/releases)
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python)](https://www.python.org/downloads/release/python-3100/)
 [![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram)](https://t.me/test32309518_bot)
@@ -18,41 +18,6 @@
 ### О боте
 
 ***Currency Master*** - это удобный Telegram-бот, созданный для предоставления актуальных данных о курсах валют и простого выполнения конвертации между разными валютами. Бот разработан с целью обеспечить пользователей надежной информацией о финансовых рынках и упростить процесс валютных операций.
-
-<details>
-<summary><h2>Описание файлов</h2></summary>
-
-- `bot/` - Пакет с ботом.
-  - `bot.py` - Основной файл бота.
-  - `handlers/` - Обработчики команд и callback-запросов.
-    - `commands/` - Обработчики команд.
-      - `start.py` - Обработчик команды /start.
-      - `help.py` - Обработчик команды /help.
-      - `convert.py` - Обработчик команды /convert.
-      - `course.py` - Обработчик команды /course.
-    - `callbacks/` - Обработчики callback-запросов.
-      - `amount_selection_handler.py` - Обработчик ввода суммы во время конвертации.
-      - `back_button_handlers.py` - Обработчики кнопки "Назад" в разных состояниях.
-      - `conversion_handler.py` - Обработчик выбора конверсии валют.
-      - `currency_handler.py` - Обработчик запросов на отображение текущего курса выбранной валюты.
-  - `keyboards/` - Клавиатуры для бота.
-    - `back_button.py` - Кнопка "Назад" для использования в инлайн-клавиатуре.
-    - `conversion_keyboards.py` - Клавиатуры для выбора конверсии валют.
-    - `currency_selection_buttons.py` - Клавиатуры для выбора валюты.
-    - `amount_keyboard.py` - Клавиатура для ввода суммы во время конвертации.
-  - `states/` - Состояния для управления процессом конвертации.
-  - `texts/` - Текстовые сообщения, используемые в боте.
-- `config/` - Конфигурационные файлы.
-  - `settings.py` - Настройки бота.
-- `utils/` - Утилиты для работы с ботом.
-  - `currency_course.py` - Утилита для получения и обработки данных о курсах валют.
-- `README.md` - Описание проекта и инструкции по его использованию.
-- `LICENSE` - Лицензия проекта.
-- `main.py` - Основной файл для запуска бота.
-- `requirements.txt` - Зависимости проекта.
-
-</details>
-
 
 <details>
 
@@ -104,12 +69,12 @@
 
 4. **Настройте конфигурацию**
    
-   Откройте файл `config/settings.py` и вставьте ваш токен бота в поле **TOKEN**. В этом файле также можно настроить другие параметры, если необходимо.
+   Создайте файл `.env` и вставьте ваш токен бота в поле **BOT_TOKEN**. В этом файле также можно настроить другие параметры, если необходимо.
 
    ```c++
-   # config/settings.py
+   # .env
 
-   TOKEN = 'YOUR_TOKEN_HERE'
+   BOT_TOKEN = 'YOUR_TOKEN_HERE'
    ```
 
 5. **Запустите бота**

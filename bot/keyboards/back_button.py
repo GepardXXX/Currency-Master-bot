@@ -1,7 +1,9 @@
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from aiogram.types import InlineKeyboardMarkup
+from aiogram.utils.keyboard import InlineKeyboardButton
 
 
-# Кнопка "Назад" для инлайн-клавиатуры
-def back_button():
-    return InlineKeyboardMarkup().row(
-        InlineKeyboardButton(text='Назад', callback_data='back'))
+def create_back_keyboard():
+    button = [InlineKeyboardButton(text="Назад", callback_data="back_button")]
+
+    keyboard = InlineKeyboardMarkup(inline_keyboard=[button])
+    return keyboard
