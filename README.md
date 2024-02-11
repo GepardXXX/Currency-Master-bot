@@ -1,7 +1,7 @@
 # Currency Master Bot
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://github.com/GepardXXX/Currency-Master-bot/aiogram3.x/logo.png" alt="Currency Rate Bot" style="margin-bottom: 10px;">
+  <img src="https://github.com/GepardXXX/Currency-Master-bot/blob/aiogram3.x/logo.png" alt="Currency Rate Bot" style="margin-bottom: 10px;">
 </div>
 
 
