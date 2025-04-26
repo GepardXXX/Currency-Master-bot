@@ -9,7 +9,7 @@
 [![GitHub license](https://img.shields.io/github/license/GepardXXX/Currency-Master-bot.svg?style=plastic)](https://github.com/GepardXXX/Currency-Master-bot/blob/aiogram3.x/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/GepardXXX/Currency-Master-bot.svg?style=plastic)](https://github.com/GepardXXX/Currency-Master-bot/releases)
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python)](https://www.python.org/downloads/release/python-3100/)
-[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram)](https://t.me/currency_master7_bot)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram)](https://t.me/currency_master77_bot)
 ![GitHub repo size](https://img.shields.io/github/repo-size/GepardXXX/Currency-Master-bot?style=plastic)
 
 [![GitHub Stars](https://img.shields.io/github/stars/GepardXXX/Currency-Master-bot.svg?style=social&label=Stars)](https://github.com/GepardXXX/Currency-Master-bot/stargazers)
@@ -23,7 +23,7 @@
 
 <summary><h2>Инструкция для пользователя</h2></summary>
 
-Для начала работы с ботом, перейдите по ссылке [Currency Master в Telegram](https://t.me/currency_master7_bot) или найдите его в Telegram, введя его имя в поиске.
+Для начала работы с ботом, перейдите по ссылке [Currency Master в Telegram](https://t.me/currency_master77_bot) или найдите его в Telegram, введя его имя в поиске.
 
 ### Команды
 
